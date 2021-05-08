@@ -1,5 +1,18 @@
-name = 'Kristine'
-post_count = 42
+# data types
 
-print(name)
-print(post_count)
+# Int
+4345
+-9384
+
+# Float
+4.5
+
+# String
+'hello'
+"hello"
+'hello"'
+"7.8"
+
+# Boo
+True
+False
