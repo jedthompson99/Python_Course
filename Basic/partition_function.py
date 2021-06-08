@@ -8,3 +8,5 @@ header, _, subheader = heading.partition(': ')
 
 new_variable = subheader + " hi"
 print(new_variable)
+
+# partition makes a new varaiable

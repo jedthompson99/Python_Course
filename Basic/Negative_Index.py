@@ -15,6 +15,4 @@ print(sentence[-1])
 
 # print(sentence[5:-20])
 
-# positive numbers are left bookends, and negative numbers are negative bookends.
-
-print(sentence[-6:5])
+# positive numbers are left bookends, and negative numbers are negative bookends. Positive numbers are always on the left, and negative are on the right.

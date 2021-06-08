@@ -12,4 +12,6 @@ url = 'https://google.com'
 
 # print(url.rstrip('.com'))
 
-print(url.capitalize())
+# Capitalizes the first letter
+
+# print(url.capitalize())

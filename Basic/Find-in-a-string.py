@@ -13,7 +13,9 @@
 
 # # find returns a "-1" if it doesn't find the substring, and index throws an error
 
-sentence = "the quick brown fox can jump over those lazy dogs"
+# sentence = "the quick brown fox can jump over those lazy dogs"
 
-query = "fox" in sentence
-print(query)
+# query = "fox" in sentence
+# print(query)
+
+# Returns "True"
