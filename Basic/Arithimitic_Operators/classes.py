@@ -9,7 +9,7 @@ tags = [
 # slice_obj = slice()
 
 
-print(tags[1:4:2])
+# print(tags[1:4:2])
 
 slice_obj = slice(1, 4, 2)
 
