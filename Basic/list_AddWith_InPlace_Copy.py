@@ -5,7 +5,7 @@ tags[-1] = 'Programming'
 
 print(tags)
 
-tags.remove(3, "new")
+tags.(3, "new")
 
 print(tags)
 

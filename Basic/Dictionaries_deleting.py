@@ -15,8 +15,6 @@ teams = {
 
 # print(new_variable)
 
-list(teams.values()[1][1])
-
 
 """
 use pop function to delete an item and also return

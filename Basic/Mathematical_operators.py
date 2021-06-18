@@ -9,7 +9,6 @@ print(100 - 42)
 print('Division')
 print(100 / 42)
 print(100 / 38)
-
 print('Floor Division')
 print(100 // 42)
 print(100 // 38)
