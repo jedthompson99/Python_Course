@@ -1,6 +1,6 @@
 players = {
     "ss": "Correa",
-    "2b": "Altuve",
+    "2b": ["Altuve", "jacob", "name"],
     "3b": "Bregman",
     "DH": "Gattis",
     "OF": "Springer",
@@ -16,9 +16,13 @@ players = {
 
 # print(list(players.items())[3])
 
-Copy_Player_Dict_Values = list(players.copy().values())
+# Copy_Player_Dict_Values = list(players.copy().values())
 
-print(Copy_Player_Dict_Values)
+# print(Copy_Player_Dict_Values)
+
+Copy_Player_Dict_Values = list(players.copy().items())
+
+print((Copy_Player_Dict_Values)[1][1][1])
 
 
 # print(list(players.values())[3])
