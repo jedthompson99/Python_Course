@@ -5,6 +5,9 @@
 
 
 sale_prices = [1, 100, 83, 499, 3, 56]
+sorted_sale_prices = sorted(sale_prices)
+sorted_sale_prices_reversed = sorted(sale_prices, reverse=True)
 
-sorted_list = sorted(sale_prices, reverse=True)
-print(sorted_list)
+print(sale_prices)
+print(sorted_sale_prices)
+print(sorted_sale_prices_reversed)

@@ -1,13 +1,13 @@
 tags = ['python', 'development', 'tutorials', 'code']
 
 # Nope
-tags[-1] = 'Programming'
+# tags[-1] = 'Programming'
 
-print(tags)
+# print(tags)
 
-tags.(3, "new")
+# tags.(3, "new")
 
-print(tags)
+# print(tags)
 
 # # In Place
 # tags.extend('Programming')
@@ -19,3 +19,7 @@ print(tags)
 # print(new_tags)
 
 # print(tags)
+
+tags_index_tutorials = tags.index('tutorials')
+
+print(tags_index_tutorials)

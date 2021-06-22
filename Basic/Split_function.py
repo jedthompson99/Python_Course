@@ -8,8 +8,15 @@
 # (similar to "partition")
 
 
-tags = 'python coding programming development'
+# tags = 'python coding programming development'
 
-list_of_tags = tags.split(" ")
+# list_of_tags = tags.split(" ")
 
-print(list_of_tags)
+# print(list_of_tags)
+
+
+tags = "python,coding,programming,development"
+
+tags_set = tags.split(",")
+
+print(tags_set)
