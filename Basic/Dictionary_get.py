@@ -14,7 +14,7 @@ teams = {
 
 # featured_team = teams.get('dodgers', 'No featured team')
 
-query = teams.get('ss', 'no featured team')
+query = teams.get('sox', 'no featured team')
 
 print(query)
 

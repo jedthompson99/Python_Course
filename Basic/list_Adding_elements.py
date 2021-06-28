@@ -1,15 +1,19 @@
 tags = ['python', 'development', 'tutorials', 'code']
 
+# tags.insert(0, 'Anthony')
+
+# print(tags)
+
+# tags.append('Ian')
+
+# print(tags)
+
 # Nope
 # tags[-1] = 'Programming'
 
 # print(tags)
 
-# tags.(3, "new")
-
-# print(tags)
-
-# # In Place
+# In Place
 # tags.extend('Programming')
 # tags.extend(['Programming'])
 
@@ -23,3 +27,9 @@ tags = ['python', 'development', 'tutorials', 'code']
 tags_index_tutorials = tags.index('tutorials')
 
 print(tags_index_tutorials)
+
+# Re-assign: replace one value with another at a certain index
+
+# tags[4] = "Brayden"
+
+# print(tags)
