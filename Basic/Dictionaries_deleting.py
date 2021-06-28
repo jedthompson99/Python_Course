@@ -6,7 +6,7 @@ teams = {
 }
 
 # del teams['angels']
-removed_team = teams.pop('mets', 'Team not found')
+removed_team = teams.pop('angels', 'Team not found')
 
 print(teams)
 
