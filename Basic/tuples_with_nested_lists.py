@@ -4,4 +4,6 @@ tags = ['python', 'coding', 'tutorial']
 
 post += (tags,)
 
+#do NOT forget the comma
+
 print(post[-1][1])

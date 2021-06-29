@@ -29,3 +29,4 @@ print(removed_team)
 use pop function to delete an item and also return
 
 """
+

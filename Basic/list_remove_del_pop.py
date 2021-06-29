@@ -23,3 +23,4 @@ tags = ['python', 'development', 'tutorials', 'code']
 
 tags_reversed = tags[::-1]
 print(tags_reversed)
+
