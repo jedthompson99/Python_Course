@@ -6,6 +6,7 @@ teams = [
             '3B': 'Bregman',
         }
     },
+
     {
         'angels': {
             'OF': 'Trout',
@@ -14,12 +15,41 @@ teams = [
     }
 ]
 
-# print(teams[0])
+print(teams)
+# [{'astros': {'2B': 'Altuve', 'SS': 'Correa', '3B': 'Bregman'}}, {'angels': {'OF': 'Trout', 'DH': 'Pujols'}}]
 
-angels = teams[1].get('angels', 'Team not found')
+print(teams[0])
+# {'astros': {'2B': 'Altuve', 'SS': 'Correa', '3B': 'Bregman'}}
 
-print(list(angels.values())[1])
+print(teams[1])
+# {'angels': {'OF': 'Trout', 'DH': 'Pujols'}}
 
-# astros = teams[0].get('2B', 'player not found')
 
-# print(astros)
+# view_teams1_items = teams[1].items()
+# print(view_teams1_items)
+# dict_items([('angels', {'OF': 'Trout', 'DH': 'Pujols'})])
+
+# list_view_teams1_items = list(teams[1].items())
+# print(list_view_teams1)
+# [('angels', {'OF': 'Trout', 'DH': 'Pujols'})]
+
+# view_teams1_keys = teams[1].keys()
+# print(view_teams1_keys)
+# dict_keys(['angels'])
+
+# list_view_teams1_keys = list(teams[1].keys())
+# print(list_view_teams1_keys)
+# ['angels']
+
+# view_teams1_values = teams[1].values()
+# print(view_teams1_values)
+# dict_values([{'OF': 'Trout', 'DH': 'Pujols'}])
+
+# print(list(list_view_teams1_items)[0])
+
+
+
+
+
+
+
