@@ -1,13 +1,18 @@
-# def f(x):
-#     return 3*x + 1
+
+full_name = lambda first, last: f'{first} {last}'
+print(full_name)
 
 
-# check = f(2)
-# print(check)
+# def greeting(name):
+#   print(f'Hi there {name}')
 
+# greeting("Jordan")
 
-lambda x: 3 * x + 1
-def g(x): return 3*x + 1
+greeting(full_name('Tiffany', 'Hudgens'))
 
+def greeting():
+    name = lambda name: f'Hi, {name}':
+    greeting(name(Jordan))
+    return greeting(Jordan)
 
-print(g(2))
+    
