@@ -1,35 +1,35 @@
-def full_name(first, last):
-  print(f'{first} {last}')
+# def full_name(first, last):
+#   print(f'{first} {last}')
 
 
-full_name('Kristine', 'Hudgens')
+# full_name('Kristine', 'Hudgens')
 
-def auth(email, password):
-  if email == 'kristine@hudgens.com' and password == 'secret':
-    print('You are authorized')
-  else:
-    print('You are not authorized')
-
-
-auth('kristine@hudgens.com', 'asdf')
-
-def hundred():
-  for num in range(1, 101):
-    print(num)
+# def auth(email, password):
+#   if email == 'kristine@hudgens.com' and password == 'secret':
+#     print('You are authorized')
+#   else:
+#     print('You are not authorized')
 
 
-hundred()
+# auth('kristine@hudgens.com', 'asdf')
 
-def counter(max_value):
-  for num in range(1, max_value):
-    print(num)
+# def hundred():
+#   for num in range(1, 101):
+#     print(num)
 
 
-counter(501)
+# hundred()
+
+# def counter(max_value):
+#   for num in range(1, max_value):
+#     print(num)
+
+
+# counter(501)
 
 
 #CODING EXERCISE
 
 def greeting():
-  print("Hello")
+  print("hello")
 greeting()

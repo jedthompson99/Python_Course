@@ -16,4 +16,4 @@ print(some_function())
 
 def counter(initial_count=0):
     return initial_count + 1
-print(counter(5))
+counter()

@@ -12,7 +12,7 @@ tags_two = {
   'development'
 }
 
-# merged tags
+# merged tags (removes duplicates)
 merged_tags = tags_one | tags_two
 print(merged_tags)
 # {'tutorials', 'python', 'coding', 'development', 'ruby'}
