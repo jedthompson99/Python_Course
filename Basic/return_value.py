@@ -1,21 +1,21 @@
-# def full_name(first, last):
-#   return f'{first} {last}'
+def full_name(first, last):
+  return f'{first} {last}'
 
 
-# kristine = full_name('Kristine', 'Hudgens')
+kristine = full_name('Kristine', 'Hudgens')
 
-# def greeting(name):
-#   print(f'Hi {name}!')
+def greeting(name):
+  print(f'Hi {name}!')
 
 
-# greeting(kristine)
+greeting(kristine)
 
 
 #CODING EXERCISE
 
-def sum_two_numbers(a,b):
-        sum = a + b
-        return(sum)
+# def sum_two_numbers(a,b):
+#         sum = a + b
+#         return sum
     
-sum_two_numbers(1,2)
+# sum_two_numbers(1,2)
 

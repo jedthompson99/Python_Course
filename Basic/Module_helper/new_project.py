@@ -1,4 +1,4 @@
 import helper
 
-print(helper.greeting('jed', 'thompson'))
+print(helper.greeting('joe', 'thompson'))
 

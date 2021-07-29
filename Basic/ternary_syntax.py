@@ -9,7 +9,7 @@
 
 # print(auth)
 
-language = "not python"
+language = "python"
 
 language_check = True if language == 'python' else False
 

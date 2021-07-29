@@ -1,20 +1,10 @@
-tags = [
-    'python',
-    'development',
-    'tutorials',
-    'code',
-    'programming',
-]
+# Coding Exercise
 
-# slice_obj = slice()
+class Garage:
 
+  def open_door(self):
+    return "The door opens"
+    
+home = Garage() 
 
-# print(tags[1:4:2])
-
-slice_obj = slice(1, 4, 2)
-
-print(slice_obj.start)
-print(slice_obj.stop)
-print(slice_obj.step)
-
-print(tags[slice_obj])
+print(home)
