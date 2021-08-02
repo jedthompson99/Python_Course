@@ -6,5 +6,3 @@ class Garage:
     return "The door opens"
     
 home = Garage() 
-
-print(home)

@@ -20,7 +20,7 @@ print(google.client)
 #  coding exercise
 
 class Garage:
-    def __init__(self, size, cars):
+    def __init__(self, size):
     self.size = size
     self.cars = ["Ram", "Model 3"]
 
@@ -28,8 +28,6 @@ class Garage:
     return "The door opens"
     
 home = Garage(2)
-# End of starter code
+home.cars = []
 
-# Setter goes here
-
-get_cars = # Getter goes here
+get_cars = home.cars
