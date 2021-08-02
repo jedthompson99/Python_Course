@@ -1,5 +1,5 @@
 class Invoice:
-    
+
     def __init__(self, client, total):
         self.client = client
         self.total = total
@@ -24,9 +24,11 @@ class Garage:
     self.size = size
     self.cars = ["Ram", "Model 3"]
 
-  def open_door(self):
+
+def open_door(self):
     return "The door opens"
-    
+
+
 home = Garage(2)
 home.cars = []
 
