@@ -7,9 +7,6 @@ class Html:
 
 
 class Heading(Html):
-
-
-class Heading(Html):
     def render(self):
         return f'<h1>{self.content}</h1>'
 
